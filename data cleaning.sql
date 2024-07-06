@@ -308,3 +308,22 @@ DROP COLUMN TotalValue;
 
 SELECT *
 FROM nashville;
+
+-- Merging same meaning types of LandUse
+SELECT DISTINCT LandUse
+FROM nashville;
+
+UPDATE nashville
+SET LandUse = 'RESIDENTIAL CONDO'
+WHERE LandUse = 'CONDO';
+
+UPDATE nashville
+SET LandUse = 'VACANT RESIDENTIAL LAND'
+WHERE LandUse = 'VACANT RES LAND';
+
+UPDATE nashville
+SET LandUse = 'VACANT RESIDENTIAL LAND'
+WHERE LandUse = 'VACANT RESIENTIAL LAND';
+
+SELECT *
+FROM nashville;
