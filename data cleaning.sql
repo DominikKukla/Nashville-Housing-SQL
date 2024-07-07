@@ -327,3 +327,13 @@ WHERE LandUse = 'VACANT RESIENTIAL LAND';
 
 SELECT *
 FROM nashville;
+
+-- Replacig , with . in Acreage
+SELECT Acreage, REPLACE(Acreage, ',', '.')
+FROM nashville;
+
+UPDATE nashville
+SET Acreage = REPLACE(Acreage, ',', '.');
+
+SELECT *
+FROM nashville;
