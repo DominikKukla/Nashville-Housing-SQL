@@ -8,7 +8,7 @@ This project serves as a demonstration of my SQL skills for data analysis. It hi
 
 The project is divided into three complementary parts, each of which consists of SQL commands alongside comments easing the understanding of code.
 
-- **Part 1: Data Import** - Creation of the database schema and a table fitted directly for the incoming dataset to ensure a trouble-free data import.
+- **Part 1: Data Import** - Creation of the database schema and a table fitted directly for the incoming dataset to ensure a trouble-free import.
 
 - **Part 2: Data Cleaning ** - An in-depth process of cleaning dirty data for an upcoming analysis consisting of fixing empty values to NULLs, standardisation, rebuilding missing data, splitting, and deduplication.
 
